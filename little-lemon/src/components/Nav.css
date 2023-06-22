@@ -1,0 +1,21 @@
+.container {
+   display: flex;
+   background-color: aqua;
+   justify-content: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
