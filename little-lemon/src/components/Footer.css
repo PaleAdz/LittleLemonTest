@@ -1,0 +1,42 @@
+.footer-container {
+    height: 350px;
+    background-color: #495E57;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    height: 250px;
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.ftr-img {
+    height: 240px;
+    background-color: white;
+    padding: 10px;
+}
+
+.ftr-ul {
+    list-style: none;
+}
+
+.ftr-li {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ftr-li:hover {
+    cursor: pointer;
+    color: #F4CE14;
+}
+
+.ftr-title {
+    font-weight: 1000;
+    text-decoration: underline;
+    line-height: 30px;
+}
