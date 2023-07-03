@@ -6,6 +6,7 @@ import bruchetta from "./Images/bruchetta.jpg";
 import lemondessert from "./Images/lemondessert.jpg";
 import chefa from "./Images/chefA.jpg";
 import chefb from "./Images/chefB.jpg";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -22,7 +23,9 @@ function Main() {
             unwind and savor a delectable array of dishes prepared with love and
             a zesty twist.
           </p>
-          <button className="reserve-button">Reserve A Table</button>
+          <Link to="/book">
+            <button className="reserve-button">Reserve A Table</button>
+          </Link>
         </div>
 
         <div className="box">
